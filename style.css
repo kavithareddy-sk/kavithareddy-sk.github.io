@@ -1,45 +1,54 @@
 
 body {
   font-family: 'Segoe UI', sans-serif;
+  background: #f4faff;
   margin: 0;
-  background: #f0f8ff;
   color: #333;
+}
+.container {
+  text-align: center;
+  padding: 2rem;
+}
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
 }
 header {
   background: #007acc;
   color: white;
-  text-align: center;
-  padding: 2rem;
-}
-h1, h2, h3 {
-  margin: 0.5rem 0;
+  padding: 2rem 1rem;
 }
 section {
-  padding: 1.5rem;
   max-width: 900px;
   margin: auto;
+  padding: 2rem 1rem;
 }
-.skills ul, .education ul {
-  list-style: none;
-  padding: 0;
+h3 {
+  color: #007acc;
+  border-bottom: 2px solid #007acc;
+  padding-bottom: 0.3rem;
 }
-.skills li, .education li {
-  padding: 0.3rem 0;
+ul {
+  list-style-type: square;
+  padding-left: 1.5rem;
 }
 .projects .card {
-  background: white;
+  background: #fff;
   padding: 1rem;
-  margin-top: 1rem;
   border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+  margin-top: 1rem;
 }
-.contact a {
+a {
   color: #007acc;
   text-decoration: none;
 }
 footer {
   text-align: center;
-  padding: 1rem;
   background: #e0e0e0;
+  padding: 1rem;
   margin-top: 2rem;
 }
